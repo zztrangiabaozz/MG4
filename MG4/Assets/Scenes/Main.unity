@@ -1272,7 +1272,7 @@ GameObject:
   - component: {fileID: 221907139}
   m_Layer: 0
   m_Name: Food (2)
-  m_TagString: Divide
+  m_TagString: Subtract
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1289,7 +1289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a78c63657c93246c6adee0d9c7063b10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FloatAnimation
-  _moveSpeed: 5
+  _moveSpeed: 2
   _switchSpeed: 3
 --- !u!135 &221907140
 SphereCollider:
@@ -6785,8 +6785,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a78c63657c93246c6adee0d9c7063b10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FloatAnimation
-  _moveSpeed: 5
-  _switchSpeed: 3
+  _moveSpeed: 2
+  _switchSpeed: 2
 --- !u!135 &1006608597
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6874,7 +6874,7 @@ Transform:
   m_GameObject: {fileID: 1006608595}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -71.67, y: 2, z: -28.1}
+  m_LocalPosition: {x: -71.67, y: 8.08, z: -27.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8482,7 +8482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a78c63657c93246c6adee0d9c7063b10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FloatAnimation
-  _moveSpeed: 5
+  _moveSpeed: 2
   _switchSpeed: 3
 --- !u!135 &1339422705
 SphereCollider:
